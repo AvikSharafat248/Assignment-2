@@ -10,6 +10,7 @@
 
 body{
     background-color: black;
+    color: white;
 }
 
 .miama{
@@ -23,6 +24,39 @@ body{
 } */
 header{
     width: 100%;
+}
+
+.btn350{
+    margin-left: 650px;
+    margin-top: -60px;
+}
+.btn-350{
+    width: 206px;
+height: 96px;
+text-align: center;
+font-weight: 400;
+color: rgba(239, 237, 232, 0.65);
+background-color: rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(20px);
+}
+
+.span350{
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 57;
+    position: relative;
+}
+
+.circle{
+    width: 40px;
+height: 40px;
+background-color: rgb(230, 83, 60);
+border-radius: 50%;
+position: absolute;
+z-index: 1;
+margin-top: 30px;
+margin-left: 10px;
 }
 
 .h3{
@@ -135,6 +169,14 @@ background-color: black;
     gap: 14px;
 
 }
+ul i{
+    color: white;
+}
+.hamburger{
+    color: white;
+    display: none;
+}
+
 .image{
     margin-left: 167px;
     margin-right: 214px;
@@ -303,6 +345,8 @@ border-radius: 18px;
 .bmi-p{
     color: rgba(255, 255, 255, 0.5);
     margin-left: 384.5px;
+    width: 671px;
+height: 48px;
 }
 
 .calculator-chart h3{
@@ -507,12 +551,16 @@ footer hr{
 }
 
 .copy{
-    text-align: center;
     margin-top: 36px;
+    margin-left: 568px;
+    margin-right: 564px;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 @media screen and (max-width:576px) {
-
+.h3{
+    margin-left: -100px;
+}
     nav{
         flex-direction: column;
         margin-left: 20px;
@@ -597,8 +645,8 @@ margin-top: 208px;
     .running{
         width: 353px;
         height: 560px;
-        margin-left: 33px;
-        margin-right: 33px;
+        margin-left: 10px;
+        margin-right: 40px;
         text-align: center;
         align-items: center;
     }
@@ -657,17 +705,20 @@ padding: 16px 40px 16px 40px;
         margin-bottom: -100px;
         
     }
+    .bmi-p{
+        width: 346px;
+height: 72px;
+    }
     .form-btn-s{
         flex-direction: column;
         margin-bottom: 20px;
     }
     .textarea{
-        width: 353px;
+        width: 340px;
 height: 48px;
     }
     .form-btn-1{
         display: flex;
-        width: 170.5px;
     }
     .form-btn-2 .age, .sex{
         width: 170.5px;   
@@ -684,6 +735,66 @@ height: 48px;
         margin-right: 20px;
         padding: 30px;
         
+    }
+    .btn350{
+        margin-left: 2px;
+        margin-top: 280px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .btn-350{
+        width: 155.74px;
+height: 72.58px;
+padding:auto;
+    }
+    .circle{
+        width: 30.24px;
+height: 30.24px;
+margin-top: 15px;
+padding: 12px;
+
+    }
+    footer{
+        height: 960px;
+    }
+
+    .footer-h{
+        margin-left: 20px;
+        font-size: 70px;
+    }
+    .footer-p{
+        margin-left: 20px;
+        width: 317px;
+height: 96px;
+    }
+    .get-started{
+        flex-direction: column;
+        margin-left: 20px;
+        margin-top: 50px;
+        gap: 20px;
+    }
+    footer hr{
+        width: 354px;
+        margin-left: 20px;
+        margin-top: 25px;
+    } 
+    .copy{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .hamburger{
+        display: block;
+    }
+    .flex1{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 140px;
+    }
+    .form-btn-2{
+        display: flex;
+        margin-right: 15px;
     }
 }
 
