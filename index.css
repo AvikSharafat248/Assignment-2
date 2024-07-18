@@ -470,6 +470,65 @@ height: 272px;
 border-radius: 18px;
 }
 
+.unique{
+    margin-top:200px;
+    color: white;
+    height: 600px;
+}
+
+.unique-h{
+    font-weight: 900;
+    font-size: 2.25rem;
+    text-align: center;
+}
+
+.benefit-1{
+    margin-left: 400px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 24px;
+    background-color:  rgba(220, 220, 220, 0.214);
+    width: 200px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+.down-arrow{
+    display: none;
+}
+
+.arrow{
+    margin-left: 1240px;
+    margin-top: -250px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.benefits{
+    display: flex;
+    margin-right: 21px;
+}
+
+.benefit-2{
+    margin-left: 400px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 24px;
+    background-color:  rgba(220, 220, 220, 0.214);
+    width: 200px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.unique-p{
+    text-align: center;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: 24px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
 .team-images-1,.team-images-2{
     display: flex;
     margin-left: 210px;
@@ -606,7 +665,7 @@ text-align: center;
 
 .fit-btn{
     margin-top: 250px;
-    margin-right:-100px ;
+    margin-right: 10px;
 }
 .btn500{
     margin-left: -80px;
@@ -645,8 +704,8 @@ margin-top: 208px;
     .running{
         width: 353px;
         height: 560px;
-        margin-left: 10px;
-        margin-right: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
         text-align: center;
         align-items: center;
     }
@@ -779,6 +838,9 @@ height: 96px;
         margin-left: 20px;
         margin-top: 25px;
     } 
+    .unique{
+        display: none;
+    }
     .copy{
         margin-left: 20px;
         margin-right: 20px;
@@ -796,5 +858,6 @@ height: 96px;
         display: flex;
         margin-right: 15px;
     }
+
 }
 
