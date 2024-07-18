@@ -14,7 +14,9 @@ body{
 
 .miama{
     font-family: 'Miama', sans-serif;
+    font-size: 5rem;
 }
+
 
 /* .bg{
     background: linear-gradient(180deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
@@ -138,7 +140,28 @@ background-color: black;
     margin-right: 214px;
     margin-top: 32px;
 }
+.image{
+    display: flex;
+}
+.fit-btn{
+    width: 193px;
+height: 98px;
+border-radius: 12px;
+background-color: rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(20px);
+margin-right: 450px;
+margin-top: 150px;
+margin-left: -100px;
+color: rgba(255, 255, 255, 0.65);
+font-size: 0.8125rem;
 
+}
+
+.fitted{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
 .habits{
     background-color: black;
     color: white;
@@ -254,6 +277,240 @@ border-radius: 18px;
     width: 323px;
     height: 218px;
 }
+
+.BMI{
+    margin-top: 88px;
+    height: 487px;
+    background-color: rgb(34, 34, 34);
+}
+.bmi-intro{
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 900;   
+}
+.calculator-chart{
+    margin-left: 187px;
+}
+
+
+.bmi-intro{
+    color: white;
+    margin-top: 88px;
+    margin-left: 384.5px;
+    font-size: 3rem;
+    margin-bottom: 14px;
+}
+.bmi-p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 384.5px;
+}
+
+.calculator-chart h3{
+    padding-top: 52px;
+    color: white;
+    font-weight: 900;
+    font-size: 1.75rem;
+    padding-bottom: 52px;
+}
+table,th,td,tr{
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse:collapse;
+    padding: 20px;
+    text-align: left;
+}
+table, td{
+   font-weight: 400;
+   font-size: 0.875rem;
+   color: rgba(255, 255, 255, 0.5);
+   text-align: left;
+}
+
+.calculate h3{
+    padding-top: 52px;
+    color: white;
+    font-weight: 900;
+    font-size: 1.75rem;
+    padding-bottom: 52px;
+}
+.calculate p{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.chart-starts{
+    display: flex;
+    gap: 175px;
+}
+
+.form-btn{
+    margin-top: 34px;
+    width: 282.5px;
+height: 48px;
+background-color: rgba(255, 255, 255, 0.1);
+color: rgba(255, 255, 255, 0.6);
+border-radius: 8px;
+border: none;
+text-align: left;
+padding: 12px 40px 12px 40px;
+margin-right: 14px;
+
+}
+.form-btn-starts{
+    display: flex;
+    gap: 14px;
+    flex-direction: column;
+}
+.age{
+    width: 282.5px;
+height: 48px;
+background-color: rgba(255, 255, 255, 0.1);
+color: rgba(255, 255, 255, 0.6);
+border-radius: 8px;
+padding-right: 12px;
+border: none;
+text-align: left;
+padding: 12px 40px 12px 40px;
+margin-right: 14px;
+}
+.sex{
+    width: 282.5px;
+height: 48px;
+background-color: rgba(255, 255, 255, 0.1);
+color: rgba(255, 255, 255, 0.6);
+border-radius: 8px;
+padding-right: 12px;
+border: none;
+text-align: left;
+padding: 12px 20px 12px 20px;
+}
+.textarea{
+    width: 585px;
+height: 48px;
+background-color: rgba(255, 255, 255, 0.1);
+color: rgba(255, 255, 255, 0.6);
+padding: 12px 40px 12px 40px;
+border: none;
+border-radius: 8px;
+}
+.calc-btn{
+    width: 224px;
+height: 54px;
+background-color: rgb(230, 83, 60);
+border: none;
+border-radius: 42px;
+margin-top: 34px;
+color: white;
+font-weight: 600;
+font-size: 1.125rem;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.team{
+    color: white;
+    margin-top: 88px;
+}
+.team-images-1,.team-images-2{
+    margin-top: 78px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    padding: 20px;
+    margin-left: 210px;
+    text-align: center;
+}
+
+.team-images img{
+    width: 326.67px;
+height: 272px;
+border-radius: 18px;
+}
+
+.team-images-1,.team-images-2{
+    display: flex;
+    margin-left: 210px;
+    margin-right: 270px;
+    gap: 14px;
+}
+.team h3{
+    text-align: center;
+}
+.team-images-2{
+    padding-bottom: 20px;
+}
+
+.team p{
+    text-align: center;
+    margin-top: 14px;
+}
+
+.team-images-2{
+    display: flex;
+    gap: 14px;
+    margin-left: 210px;
+    margin-top: 14px;
+}
+
+footer{
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 76px;
+    color: white;
+    height: 500px;
+}
+
+.footer-h{
+    padding-top: 66px;
+    margin-left: 190px;
+    font-size: 4.375rem;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+} 
+.footer-p{
+margin-left: 190px;
+width: 443px;
+height: 72px;
+font-size: 0.875rem;
+color: rgba(255, 255, 255, 0.5);
+margin-top: 20px;
+}
+
+.get-started{
+    margin-left: 735px;
+    margin-top: -160px;
+    display: flex;
+    gap: 152px;
+}
+.start-1 h3{
+font-size: 2rem;
+font-weight: 700;
+margin-bottom: 39px;
+}
+.start-1 p{
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.start-2 h3{
+    font-size: 2rem;
+font-weight: 700;
+margin-bottom: 39px;
+}
+
+.start-2 p{
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+footer hr{
+    width: 80%;
+    margin-left: 189px;
+    margin-top: 79px;
+}
+
+.copy{
+    text-align: center;
+    margin-top: 36px;
+}
+
 @media screen and (max-width:576px) {
 
     nav{
@@ -288,12 +545,26 @@ height: 96px;
     margin-right: 20px;
 }
 .join{
-    width: 400px;
+width: 169px;
 height: 54px;
 font-size: 18px;
 text-align: center;
 
 }
+
+.image{
+    margin-top: 120px;
+}
+
+.fit-btn{
+    margin-top: 250px;
+    margin-right:-100px ;
+}
+.btn500{
+    margin-left: -80px;
+    width: 100%;
+}
+
 .image img{
     width: 353px;
 height: 588px;
@@ -369,6 +640,50 @@ padding: 16px 40px 16px 40px;
     }
     .run{
         flex-direction: column;
+    }
+    .bmi-intro,.bmi-p{
+        margin-left: 20px;
+        margin-right: 138px;
+    }
+    .BMI{
+        width: 100%;
+        height: 1000px;
+    }
+    .chart-starts{
+        flex-direction: column;
+    }
+    .calculate{
+        margin-left: 20px;
+        margin-bottom: -100px;
+        
+    }
+    .form-btn-s{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .textarea{
+        width: 353px;
+height: 48px;
+    }
+    .form-btn-1{
+        display: flex;
+        width: 170.5px;
+    }
+    .form-btn-2 .age, .sex{
+        width: 170.5px;   
+    }
+    .calculator-chart{
+        margin-left: 20px;
+    }
+    .calculate h3{
+        margin-top: -200px;
+    }
+    .team-images-1,.team-images-2{
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 30px;
+        
     }
 }
 
