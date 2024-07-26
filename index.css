@@ -816,6 +816,7 @@ height: 72px;
     .textarea{
         width: 353px;
         height: 48px;
+        padding-left: 14px;
     }
     .form-btn-1{
         display: flex;
