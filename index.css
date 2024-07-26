@@ -19,9 +19,9 @@ body{
 }
 
 
-/* .bg{
+.bg{
     background: linear-gradient(180deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-} */
+}
 header{
     width: 100%;
 }
@@ -255,6 +255,7 @@ height: 274px; */
     color: rgba(255, 255, 255, 0.5);
 }
 
+
 .running{
     /* width: 1060px;
     height: 371px; */
@@ -275,13 +276,20 @@ height: 274px; */
     font-size: 3rem;
     font-weight: 900;
     width: 443px;
+    height: 116px;
 }
 
-.running p{
-    padding-top: 171px;
-    padding-left: 54px;
+.run-p{
+    margin-top: 171px;
+    margin-left: 54px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: left;
     width: 443px;
-    color:rgba(255, 255, 255, 0.5);
+    height: 72px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
 }
 
 .run{
@@ -730,16 +738,11 @@ line-height: 120%;
 text-align: left;
 margin-left: 33px;
     }
-    .running p{
-padding: 0px;
-margin-top: 135px;
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.3px;
-margin-left: 33px;
-margin-right: 33px;
-text-align: left;
+    
+    .run-p{
+        width: 287px;
+        height: 96px;
+        margin-left: 33px;
     }
 
     .img-boy{
@@ -787,15 +790,20 @@ height: 72px;
         margin-bottom: 20px;
     }
     .textarea{
-        width: 340px;
-height: 48px;
+        width: 353px;
+        height: 48px;
     }
     .form-btn-1{
         display: flex;
     }
-    .form-btn-2 .age, .sex{
-        width: 170.5px;   
+    .age, .sex{
+        width: 170.5px;
+height: 48px;
     }
+    .age,.sex,.form-btn{
+padding-left: 20px;
+    }
+
     .calculator-chart{
         margin-left: 20px;
     }
@@ -871,6 +879,10 @@ height: 96px;
     .form-btn-2{
         display: flex;
         margin-right: 15px;
+    }
+    .form-btn{
+        width: 170.5px;
+height: 48px;
     }
 .team h3{
     font-size: 32px;
