@@ -359,6 +359,8 @@ border-radius: 18px;
     margin-left: 384.5px;
     width: 671px;
     height: 48px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
 }
 
 .calculator-chart h3{
@@ -391,6 +393,8 @@ table, td{
 }
 .calculate p{
     color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.3px;
+    line-height: 24px;
 
 }
 
@@ -438,7 +442,7 @@ border-radius: 8px;
 padding-right: 12px;
 border: none;
 text-align: left;
-padding: 12px 20px 12px 20px;
+padding: 12px 40px 12px 40px;
 }
 .textarea{
     width: 585px;
