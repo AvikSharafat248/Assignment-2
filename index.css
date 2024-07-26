@@ -226,6 +226,8 @@ text-align: center;
 margin-top: 14px;
 font-size: 0.875rem;
 color: rgba(255, 255, 255, 0.5);
+letter-spacing: 0.3px;
+line-height: 24px;
 }
 
 .images-4 img{
@@ -340,7 +342,7 @@ border-radius: 18px;
 .bmi-intro{
     color: white;
     font-size: 1.75rem;
-    font-weight: 900;   
+    font-weight: 900;
 }
 .calculator-chart{
     margin-left: 187px;
@@ -349,10 +351,11 @@ border-radius: 18px;
 
 .bmi-intro{
     color: white;
-    margin-top: 88px;
+    margin-top: 133px;
     margin-left: 384.5px;
     font-size: 3rem;
     margin-bottom: 14px;
+    
 }
 .bmi-p{
     color: rgba(255, 255, 255, 0.5);
@@ -527,6 +530,8 @@ border-radius: 18px;
     width: 200px;
     color: whitesmoke;
     font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.3px;
 }
 .down-arrow{
     display: none;
@@ -554,6 +559,8 @@ border-radius: 18px;
     width: 200px;
     color: whitesmoke;
     font-weight: 700;
+    letter-spacing: 0.3px;
+    line-height: 24px;
 }
 
 .unique-p{
@@ -562,6 +569,8 @@ border-radius: 18px;
     margin-right: 190px;
     margin-top: 24px;
     color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.3px;
+    line-height: 24px;
 }
 
 .team-images-1,.team-images-2{
@@ -611,6 +620,9 @@ height: 72px;
 font-size: 0.875rem;
 color: rgba(255, 255, 255, 0.5);
 margin-top: 20px;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
 }
 
 .get-started{
@@ -644,6 +656,7 @@ footer hr{
     margin-left: 189px;
     margin-top: 79px;
 }
+
 
 .copy{
     margin-top: 36px;
@@ -752,6 +765,7 @@ margin-top: 208px;
         text-align: center;
         margin-left: 37px;
         margin-right: 37px;
+
     }
     .images-4{
         justify-content: center;
