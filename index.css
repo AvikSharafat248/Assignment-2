@@ -19,11 +19,20 @@ body{
 }
 
 
+
 .bg{
     background: linear-gradient(180deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 }
 header{
     width: 100%;
+    overflow: hidden;
+}
+main{
+    overflow: hidden;
+}
+
+footer{
+    overflow: hidden;
 }
 .join2{
     display: none;
